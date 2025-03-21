@@ -8,7 +8,7 @@ describe('Testes Funcional de finança - Dev finance', () => {
         cy.get('#form > h2').should('contain','Nova Transação')
         cy.get('#description').type("Estacionamento")
         cy.get('#amount').type('25.90')
-        cy.get('#date').type('2025-03-21')
+        cy.get('#date').type('2025-02-21')
         cy.get('button').click()
     })
     
